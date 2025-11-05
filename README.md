@@ -154,21 +154,10 @@ uav_task_offloading/
 - pip package manager
 - (Optional) Virtual environment tool
 
-### Step 1: Clone or Download
-```bash
-# If using the setup script
-chmod +x setup.sh
-./setup.sh
-cd uav_task_offloading
-```
 
-Or manually create the structure:
-```bash
-mkdir uav_task_offloading
-cd uav_task_offloading
-```
 
-### Step 2: Install Dependencies
+
+### 1:Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -177,25 +166,15 @@ pip install -r requirements.txt
 - `numpy >= 1.20.0` - Numerical computations
 - `matplotlib >= 3.3.0` - Visualization and plotting
 
-### Step 3: Verify Installation
+### 2: Run
 ```bash
-python -c "import numpy; import matplotlib; print('Installation successful!')"
-```
-
-## 💻 Usage
-
-### Method 1: GUI Application (Recommended)
-
-Launch the interactive graphical interface:
-```bash
+./run.sh
+or 
 python frontend/app.py
 ```
 
-Or use the convenience script:
-```bash
-chmod +x run.sh
-./run.sh
-```
+
+
 
 #### GUI Features
 
