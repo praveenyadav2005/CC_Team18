@@ -38,15 +38,15 @@ uav_task_offloading/
 
 ## Installation
 
-1. Create and navigate to the project directory:
-```bash
-./setup.sh
-cd uav_task_offloading
-```
 
-2. Install dependencies:
+
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+2. Create and navigate to the project directory:
+```bash
+./run.sh
 ```
 
 3. Copy the code files to their respective locations as per the structure above.
